@@ -341,7 +341,7 @@ SECTIONS = [
         "body": "We bring together expertise in planning, design, construction and project management to deliver developments that create long-term value for homeowners, investors and communities.",
         "ctaLabel": "Explore Developments",
         "ctaHref": "/properties",
-        "image": U("1600880292203-757bb62b4baf"),
+        "image": "/assets/hoz.jpg",
         "imageAlt": "The INCK Realty team in Nairobi, Kenya",
         "stats": [
             {"value": 10, "suffix": "+", "label": "HOMES DELIVERED"},

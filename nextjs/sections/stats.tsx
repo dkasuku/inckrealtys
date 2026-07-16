@@ -22,7 +22,7 @@ export const statsDefaults: StatsContent = {
     body: "We bring together expertise in planning, design, construction and project management to deliver developments that create long-term value for homeowners, investors and communities.",
     ctaLabel: "Explore Developments",
     ctaHref: "/properties",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
+    image: "/assets/hoz.jpg",
     imageAlt: "The INCK Realty team in Nairobi, Kenya",
     stats: [
         { value: 10, suffix: "+", label: "HOMES DELIVERED" },
