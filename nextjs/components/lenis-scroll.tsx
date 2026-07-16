@@ -10,14 +10,8 @@ export default function LenisScroll() {
             smoothWheel: true,
             syncTouch: false,
             anchors: true,
+            autoRaf: true,
         });
-
-        const raf = (time: number) => {
-            lenis.raf(time);
-            requestAnimationFrame(raf);
-        };
-
-        requestAnimationFrame(raf);
 
         return () => {
             lenis.destroy();
