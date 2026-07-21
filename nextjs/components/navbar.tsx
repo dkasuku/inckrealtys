@@ -19,6 +19,7 @@ const navLinks: NavItem[] = [
         href: "/about",
         children: [
             { label: "About Us", href: "/about", desc: "Who we are, our vision, mission and values" },
+            { label: "What We Develop", href: "/what-we-develop", desc: "Explore the communities and properties we create" },
             { label: "Blog", href: "/blog", desc: "Market insight, buying guides and design thinking" },
         ],
     },

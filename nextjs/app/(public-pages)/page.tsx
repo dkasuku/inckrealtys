@@ -7,7 +7,6 @@ import { Projects, projectsDefaults, ProjectsContent } from "@/sections/projects
 import { Stats, statsDefaults, StatsContent } from "@/sections/stats";
 import { Testimonials, testimonialsDefaults, TestimonialsContent } from "@/sections/testimonials";
 import { VisionMission, visionMissionDefaults, VisionMissionContent } from "@/sections/vision-mission";
-import { WhatWeDevelop, whatWeDevelopDefaults, WhatWeDevelopContent } from "@/sections/what-we-develop";
 import { WhyChooseUs, whyChooseUsDefaults, WhyChooseUsContent } from "@/sections/why-choose-us";
 import { getSections, getFeaturedProperties } from "@/lib/content";
 
@@ -23,7 +22,6 @@ export default async function Home() {
     <main>
       <HeroSection content={merge<HeroContent>("hero", heroDefaults)} />
       <Stats content={merge<StatsContent>("stats", statsDefaults)} />
-      <WhatWeDevelop content={merge<WhatWeDevelopContent>("what_we_develop", whatWeDevelopDefaults)} />
       <Projects content={merge<ProjectsContent>("projects", projectsDefaults)} properties={featured} />
       <Gallery content={merge<GalleryContent>("gallery", galleryDefaults)} />
       <WhyChooseUs content={merge<WhyChooseUsContent>("why_choose_us", whyChooseUsDefaults)} />
